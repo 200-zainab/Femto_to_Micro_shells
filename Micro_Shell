@@ -1,3 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////
+// Author: Zainab Mahmoud Ali
+// Date  : 4/9/2025
+Project: Micro Shell in c
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdio.h>
@@ -10,7 +16,7 @@
 
 #define BUF_SIZE 10000
 
-// --- Function prototypes ---
+// --- Function Declerations ---
 char* strip_extra_spaces(char* str);
 char* replaceWord(const char* s, const char* oldW, const char* newW);
 char* get_env_var(char *str);
