@@ -169,7 +169,7 @@ int microshell_main(int argc, char **argv) {
 
     return last_status;
 }
-  }
+  
 
 
 // Remove extra spaces from a string
